@@ -1,0 +1,10 @@
+dn: uid=edward,ou=users,ou=linux,ou=servers,dc=travel,dc=htb
+changetype: modify
+add: objectClass
+objectClass: ldapPublicKey
+-
+add: sshPublicKey
+sshPublicKey: ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDzMUfTWiMrzEzFuA0LU1kGPqvENsOCc0YGcb50shLEtT8dwE5ulGhVdf+PS8dtBArgGcRl4PPzY34y4gDCYx7BzmmSMaE8h020LoNmd//CRTN7nlybDfrpSZu60KceA4MggqSi/4NxHoBm6Le4SS/hkeaeh6lkxFvhN2sr1I1AJdF0F0JtIHRR+TJ3yTPHwC5VOiCQjybKZXPy7VrqFYqeBjqgMq0VZ0OlOXt63mozzDCJurdGvk3Irg4uctCkgy2CYJ+AbH4kXL0dnzmm4+qlIvfzCNjv+EevcmqYsC1f4ow//D8tCSNoWFKdykaYHqM7Dv6nc0XkaQTNU3upNe8zzHMWqA8uaXQSuO/Obo6EV7ECV7bsAaencJPYahH823sazu87WGdZ2iXQxiZuVRxbWA1KS87ZabsDFKj1xnChL04U/LsALy0E69icpB6WyGh4Kk0jI4+LEycE6w1yvkOohR7uK151uoE1gJEfMFbTXdlhkVU9uciQuqGPnSyd/6s= root@cfx
+-
+replace: gidNumber
+gidNumber: 117

