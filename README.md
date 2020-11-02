@@ -1,2 +1,2 @@
-## CTF-Scripts
-Scripts used in HTB and other CTF's
+## HackTheBox Scripts
+Scripts that I wrote & used in HackTheBox and other CTF's
